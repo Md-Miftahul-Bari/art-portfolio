@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Mafiul Wahid Shihab — Artist & Muralist</title>
+<meta name="description" content="Portfolio of Mafiul Wahid Shihab — artist, muralist and illustrator, and BFA History of Art student at the University of Rajshahi.">
+<meta name="theme-color" content="#F3F1EC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#work">Skip to work</a>
+
+<!-- ANIMATED BACKGROUND (art-derived) -->
+<div class="bgfx" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+  <span class="blob b5"></span>
+  <span class="grain"></span>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a class="nav__mark" href="#top">
+      <span class="nav__name">Mafiul Wahid Shihab</span>
+      <span class="nav__role">Artist · Muralist</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#path">Path</a>
+      <a href="#recognition">Recognition</a>
+      <a href="#contact" class="nav__cta">Contact</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="menu" id="menu" hidden>
+  <nav class="menu__links" aria-label="Mobile">
+    <a href="#work"><span>01</span>Work</a>
+    <a href="#about"><span>02</span>About</a>
+    <a href="#path"><span>03</span>Path</a>
+    <a href="#recognition"><span>04</span>Recognition</a>
+    <a href="#contact"><span>05</span>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="mailto:mafiul.wahid@gmail.com">mafiul.wahid@gmail.com</a>
+    <span>Rajshahi, Bangladesh</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__grid">
+    <div class="hero__text">
+      <p class="hero__eyebrow"><span class="dot"></span>Rajshahi, Bangladesh</p>
+      <h1 class="hero__title">Mafiul Wahid <em>Shihab</em></h1>
+      <p class="hero__lede">Artist, muralist and illustrator. I paint walls, build brand worlds, and study how pictures carry meaning — currently reading for a BFA in History of Art at the University of Rajshahi.</p>
+      <div class="hero__actions">
+        <a href="#work" class="btn btn--solid">View the work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+      <dl class="hero__facts">
+        <div><dt>Practice</dt><dd>Murals · Branding · Illustration</dd></div>
+        <div><dt>Selected pieces</dt><dd><span id="countNum">—</span> works</dd></div>
+      </dl>
+    </div>
+
+    <!-- CAROUSEL -->
+    <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Featured work">
+      <div class="carousel__track" id="carTrack"></div>
+      <div class="carousel__ui">
+        <button class="carousel__arw" id="carPrev" aria-label="Previous work">&#8249;</button>
+        <div class="carousel__dots" id="carDots"></div>
+        <button class="carousel__arw" id="carNext" aria-label="Next work">&#8250;</button>
+      </div>
+    </div>
+  </div>
+  <a class="hero__scroll" href="#work" aria-label="Scroll to work"><span></span>Scroll</a>
+</section>
+
+<main>
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="sec__head">
+    <p class="sec__kicker">Portfolio</p>
+    <h2 class="sec__title">Selected Work</h2>
+    <p class="sec__sub">Walls, brands and drawings from Rajshahi and beyond. Tap any piece to view it full size.</p>
+  </div>
+  <div class="filters" id="filters" role="tablist" aria-label="Filter work"></div>
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about__grid">
+    <div class="about__portrait">
+      <div class="about__frame">
+        <img src="assets/portrait.png" alt="Portrait of Mafiul Wahid Shihab" width="600" height="600">
+      </div>
+      <p class="about__sig">Mafiul Wahid Shihab</p>
+    </div>
+    <div class="about__body">
+      <p class="sec__kicker">About</p>
+      <h2 class="sec__title">A painter with an art-historian’s eye.</h2>
+      <p class="about__lead">Born and raised in Rajshahi, I am a third-year student pursuing a BFA in History of Art at the University of Rajshahi.</p>
+      <p>My practice runs from large-scale murals for cafés, restaurants and institutions to brand identities, posters and packaging. Studying art history sharpens how I read images and compose my own — I care as much about why a picture works as how it looks. Alongside the studio I am an active debater, and a traveller who looks for culture and new experiences wherever I go.</p>
+
+      <div class="about__cols">
+        <div class="about__col">
+          <h3 class="minor">Education</h3>
+          <ul class="edu">
+            <li><b>BFA in History of Art</b><span>University of Rajshahi — CGPA 3.75</span><i>Honours · in progress</i></li>
+            <li><b>Higher Secondary (HSC)</b><span>Rajshahi Govt. City College — Science</span><i>GPA 5.00</i></li>
+            <li><b>Secondary (SSC)</b><span>Rajshahi Collegiate School — Science</span><i>GPA 5.00</i></li>
+          </ul>
+        </div>
+        <div class="about__col">
+          <h3 class="minor">Tools</h3>
+          <ul class="tags">
+            <li>Adobe Illustrator</li><li>Microsoft Office</li><li>Notion</li>
+          </ul>
+          <h3 class="minor minor--gap">Focus</h3>
+          <ul class="tags">
+            <li>Mural &amp; wall painting</li><li>Brand identity</li><li>Posters &amp; packaging</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PATH -->
+<section class="path" id="path">
+  <div class="sec__head">
+    <p class="sec__kicker">Beyond the studio</p>
+    <h2 class="sec__title">Debating &amp; Leadership</h2>
+    <p class="sec__sub">A decade in competitive debating and student leadership convening tournaments and organising for causes.</p>
+  </div>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<!-- RECOGNITION -->
+<section class="reco" id="recognition">
+  <div class="sec__head">
+    <p class="sec__kicker sec__kicker--light">Honours</p>
+    <h2 class="sec__title">Recognition</h2>
+    <p class="sec__sub">Selected results from debating and science competitions.</p>
+  </div>
+  <div class="reco__grid">
+    <div class="reco__col">
+      <h3 class="reco__rank">Champion</h3>
+      <ul>
+        <li>RDF Winter Debate Championship<span>2019</span></li>
+        <li>BCSIR Science Fest<span>2015</span></li>
+        <li>4th RCSDC Interclass Debate Tournament<span>2016</span></li>
+      </ul>
+    </div>
+    <div class="reco__col">
+      <h3 class="reco__rank">Runner-up</h3>
+      <ul>
+        <li>RUDF Invitationals<span>2024</span></li>
+        <li>Rajshahi Divisional Science Fest<span>2015</span></li>
+      </ul>
+    </div>
+    <div class="reco__col">
+      <h3 class="reco__rank">Semi-finalist</h3>
+      <ul>
+        <li>Environment Day Open BP<span>2024</span></li>
+        <li>RUDO Fundraiser: Save A Father<span>2024</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact__in">
+    <p class="contact__eyebrow">Available for murals, identities &amp; commissions</p>
+    <h2 class="contact__title">Let’s make something<br>worth looking at.</h2>
+    <div class="contact__links">
+      <a href="mailto:mafiul.wahid@gmail.com"><span>Email</span><b>mafiul.wahid@gmail.com</b></a>
+      <a href="tel:+88017016400814"><span>Phone</span><b>+880 1701 6400 814</b></a>
+      <div><span>Based in</span><b>Rajshahi, Bangladesh</b></div>
+    </div>
+  </div>
+  <footer class="foot">
+    <span>© <span id="yr"></span> Mafiul Wahid Shihab</span>
+    <span>Artist · Debater · Travel Enthusiast</span>
+  </footer>
+</section>
+</main>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Artwork viewer" hidden>
+  <button class="lb__btn lb__close" id="lbClose" aria-label="Close">&times;</button>
+  <button class="lb__btn lb__prev" id="lbPrev" aria-label="Previous">&#8249;</button>
+  <button class="lb__btn lb__next" id="lbNext" aria-label="Next">&#8250;</button>
+  <figure class="lb__fig">
+    <img class="lb__img" id="lbImg" alt="">
+    <figcaption class="lb__cap" id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<script src="artworks.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
